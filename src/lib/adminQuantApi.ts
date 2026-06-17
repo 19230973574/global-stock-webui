@@ -1,7 +1,7 @@
 import type { KlineBar } from './marketApi'
 import type { QuantScreen, QuantScreenPage } from './quantApi'
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8080'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? '/api'
 
 type ApiResponse<T> = { code: string; message: string; data: T }
 
